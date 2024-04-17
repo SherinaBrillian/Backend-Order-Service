@@ -82,7 +82,7 @@ public class CartImplRepo implements CartRepo {
                 cartModel.setCustomerUid(rs.getString("customerUid"));
                 cartModel.setProductUid(rs.getString("productUid"));
                 cartModel.setPriceUid(rs.getString("priceUid"));
-                cartModel.setQty(rs.getString("qty"));
+                cartModel.setQty(rs.getLong("qty"));
                 cartModel.setServiceUid(rs.getString("serviceUid"));
                 cartModel.setCreatedAt(rs.getString("createdAt"));
                 cartModel.setUpdatedAt(rs.getString("updatedAt"));
@@ -102,7 +102,7 @@ public class CartImplRepo implements CartRepo {
                 cartModel.setCustomerUid(rs.getString("customerUid"));
                 cartModel.setProductUid(rs.getString("productUid"));
                 cartModel.setPriceUid(rs.getString("priceUid"));
-                cartModel.setQty(rs.getString("qty"));
+                cartModel.setQty(rs.getLong("qty"));
                 cartModel.setServiceUid(rs.getString("serviceUid"));
                 cartModel.setCreatedAt(rs.getString("createdAt"));
                 cartModel.setUpdatedAt(rs.getString("updatedAt"));
