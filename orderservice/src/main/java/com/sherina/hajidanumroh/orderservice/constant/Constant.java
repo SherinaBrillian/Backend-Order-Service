@@ -8,4 +8,8 @@ public class Constant {
         public static final String GET_ALL = "Select * from tbCart";
         public static final String GET_BY_ID = "Select * from tbCart where cartUid = ?";
     }
+
+    public static final class CartJamaah {
+        
+    }
 }
