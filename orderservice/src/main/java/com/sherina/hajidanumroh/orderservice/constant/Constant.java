@@ -10,6 +10,6 @@ public class Constant {
     }
 
     public static final class CartJamaah {
-        
+        public static final String INSERT = "Insert into tbCart (cartUid, customerUid, productUid, priceUid, qty, serviceUid) value (?,?,?,?,?,?)";
     }
 }
